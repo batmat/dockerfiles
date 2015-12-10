@@ -1,0 +1,24 @@
+= Jenkins SSH Slave Docker image
+
+== Informations
+
+This image:
+
+* runs on JDK8
+* is designed to work as a link:https://wiki.jenkins-ci.org/display/JENKINS/SSH+Slaves+plugin[Jenkins ssh slave]
+
+Comes preinstalled with:
+
+* Git
+* Subversion
+
+== Contributing
+
+Don't hesitate to file issues or pull-requests to add or adjust things,
+I'll have a look at it as soon as possible.
+
+== Why yet another one?
+
+Really, I've spent time searching for what I wanted on the Docker Hub.
+Didn't find something at least approaching what I wanted as a basis (see above),
+hence this image.
