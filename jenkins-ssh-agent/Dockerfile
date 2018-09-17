@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM openjdk:8-jdk
 MAINTAINER Baptiste Mathus <batmat@batmat.net>
 
 RUN apt-get update -y && \
@@ -6,7 +6,6 @@ RUN apt-get update -y && \
     apt-get install -y \
                         git \
                         subversion \
-                        openjdk-8-jdk \
                         openssh-server && \
     apt-get clean
 
