@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk
+FROM openjdk:11-jdk
 MAINTAINER Baptiste Mathus <batmat@batmat.net>
 
 RUN apt-get update -y && \
